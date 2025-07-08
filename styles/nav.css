@@ -1,4 +1,18 @@
 nav{
-    color: blue;
-    font-size: large;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#mary{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+
+}
+#mary-r{
+    color: #FD6E0A;
 }
