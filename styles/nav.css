@@ -1,8 +1,32 @@
+
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+    
+    
 }
+
+
+header{
+    background-image: url(/images/developer.png);
+    background-position-x: 23px;
+    background-position-y:38px ;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+/* #wrapper {
+  position: relative;
+} */
+
+/* #img {
+  position: absolute;
+  top: 38px;
+  left: 23px;
+  width: 774px;
+  height: 136px;
+} */
 
 #listing{
     display: flex;
