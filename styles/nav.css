@@ -1,4 +1,10 @@
+*{
+	margin: 0px;
+}
+
+
 body{
+	display: flex;
     width: 1600px;
     height: 4256px;
 }
@@ -7,13 +13,13 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-    height: 837px;
-    width: 1600x;
+	height: 837px;
+	width: 1600px;
 	background-image: url(/images/developer.png);
-    background-position-x: 23px;
-    background-position-y:38px ;
-    background-repeat: no-repeat;
-    background-color: #FFF8F3;
+	background-position-x: 23px;
+	background-position-y:38px ;
+	background-repeat: no-repeat;
+	background-color: #FFF8F3;
 }
 
 
@@ -64,4 +70,17 @@ a {
 	font-size: 20px;
 	font-weight: bold;
 	font-family: "Open Sans", sans-serif;
+}
+
+#hardy-bg{
+	position:absolute;
+	left: 767px;
+	top: 319px;
+}
+
+
+#hardy{
+	position:absolute;
+	left: 978px;
+	top: 161px;
 }
