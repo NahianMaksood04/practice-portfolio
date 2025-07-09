@@ -1,38 +1,39 @@
-#first-contract{
-    position: absolute;
+#bg-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+} 
+#pinkbg {
+	background-color: #fff8f3;
+	position: absolute;
 	left: 230px;
-	top: 297px;
-    height: 356px;
-    width: 585px;
-    border: 1px solid black;
-}
-
-#contract {
-	color: #fd6e0a;
-	background-color: transparent;
-	border: 0;
-	width: 150px;
-	height: 64px;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: "Open Sans", sans-serif;
-    border: 1px solid #fd6e0a;
-}
-
-#download{
-	color: white;
-	background-color: #fd6e0a;
-	border: 0;
-	width: 200px;
-	height: 64px;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: "Open Sans", sans-serif;
-}
-
-#gaps{
+	top: 967px;
+	width: 1140px;
+	height: 550px;
     display: flex;
-    gap: 30px;
+    
 }
+#text {
+	border: 1px solid black;
+	position: absolute;
+	left: 386px;
+	top: 1098px;
+	width: 827px;
+	height: 288px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 30px;
+	justify-content: space-between;
+    background-color: white;
+    
+}
+
+#details {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+

@@ -1,11 +1,15 @@
 * {
 	margin: 0px;
+	
+
+	
 }
 
 body {
 	display: flex;
 	width: 1600px;
 	height: 4256px;
+	flex-direction: column;
 }
 
 nav {
@@ -82,4 +86,50 @@ a {
 	left: 978px;
 	top: 161px;
 	z-index: 1;
+}
+
+#first-contract{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+	left: 230px;
+	top: 297px;
+    height: 356px;
+    width: 585px;
+}
+
+#contract {
+	color: #fd6e0a;
+	background-color: transparent;
+	border: 0;
+	width: 150px;
+	height: 64px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+    border: 1px solid #fd6e0a;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#download{
+	color: white;
+	background-color: #fd6e0a;
+	border: 0;
+	width: 200px;
+	height: 64px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#gaps{
+    display: flex;
+    gap: 30px;
 }
