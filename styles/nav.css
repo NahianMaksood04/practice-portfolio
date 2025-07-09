@@ -1,12 +1,11 @@
-*{
+* {
 	margin: 0px;
 }
 
-
-body{
+body {
 	display: flex;
-    width: 1600px;
-    height: 4256px;
+	width: 1600px;
+	height: 4256px;
 }
 
 nav {
@@ -17,11 +16,10 @@ nav {
 	width: 1600px;
 	background-image: url(/images/developer.png);
 	background-position-x: 23px;
-	background-position-y:38px ;
+	background-position-y: 38px;
 	background-repeat: no-repeat;
-	background-color: #FFF8F3;
+	background-color: #fff8f3;
 }
-
 
 #listing {
 	display: flex;
@@ -72,15 +70,4 @@ a {
 	font-family: "Open Sans", sans-serif;
 }
 
-#hardy-bg{
-	position:absolute;
-	left: 767px;
-	top: 319px;
-}
 
-
-#hardy{
-	position:absolute;
-	left: 978px;
-	top: 161px;
-}

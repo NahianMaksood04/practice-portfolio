@@ -1,0 +1,13 @@
+#hardy-bg {
+	position: absolute;
+	left: 767px;
+	top: 319px;
+	z-index: 0;
+}
+
+#hardy {
+	position: absolute;
+	left: 978px;
+	top: 161px;
+	z-index: 1;
+}
