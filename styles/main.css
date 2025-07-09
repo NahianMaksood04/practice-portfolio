@@ -1,13 +1,38 @@
-#hardy-bg {
-	position: absolute;
-	left: 767px;
-	top: 319px;
-	z-index: 0;
+#first-contract{
+    position: absolute;
+	left: 230px;
+	top: 297px;
+    height: 356px;
+    width: 585px;
+    border: 1px solid black;
 }
 
-#hardy {
-	position: absolute;
-	left: 978px;
-	top: 161px;
-	z-index: 1;
+#contract {
+	color: #fd6e0a;
+	background-color: transparent;
+	border: 0;
+	width: 150px;
+	height: 64px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+    border: 1px solid #fd6e0a;
+}
+
+#download{
+	color: white;
+	background-color: #fd6e0a;
+	border: 0;
+	width: 200px;
+	height: 64px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+}
+
+#gaps{
+    display: flex;
+    gap: 30px;
 }
