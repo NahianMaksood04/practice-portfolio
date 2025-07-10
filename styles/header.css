@@ -18,7 +18,7 @@ nav {
 	justify-content: space-between;
 	height: 837px;
 	width: 1600px;
-	background-image: url(/images/developer.png);
+	background-image: url(~/ph/images/developer.png);
 	background-position-x: 23px;
 	background-position-y: 38px;
 	background-repeat: no-repeat;
